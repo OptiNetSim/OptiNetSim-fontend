@@ -9,17 +9,15 @@ const router = createRouter({
     {
       path:'/',
       component:Layout,
-      children:[
-        {
-          path:'',
-          component: Function
-        }
-      ]
     },
     {
       path:'/login',
       component:Login
-    }
+    },
+    {
+      path:'/function',
+      component:Function
+    },
   ],
 })
 
