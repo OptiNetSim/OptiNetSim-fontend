@@ -1,15 +1,23 @@
 <script setup>
 // import { RouterLink, RouterView } from 'vue-router'
+//别名联想设置
 // import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
 
-  <!-- 别动，路由出口 -->
+  <!-- 别动，路由出口/一级路由出口组件 -->
   <RouterView />
+  <div class="test">
+    test scss
+  </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss"> 
+.test{
+  color:$sucColor;
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;
