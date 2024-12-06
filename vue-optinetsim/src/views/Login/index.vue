@@ -53,15 +53,15 @@ const onSubmit = () => {
   } else {
     ElMessage.error('用户名或密码错误');
   }
-//   // 注册按钮的点击事件
-// const onRegister = () => {
-//   ElMessage.info('跳转到注册页面');
-// }
+}
+ // 注册按钮的点击事件
+const onRegister = () => {
+  ElMessage.info('跳转到注册页面');
+}
 
-// // 忘记密码按钮的点击事件
-// const onForgetPassword = () => {
-//   ElMessage.info('跳转到忘记密码页面');
-// }
+// 忘记密码按钮的点击事件
+const onForgetPassword = () => {
+  ElMessage.info('跳转到忘记密码页面');
 }
 </script>
 
@@ -141,14 +141,7 @@ background-position: center;
   width: 300px; /* 修改：输入框宽度设置为80% */
   height: 40px;
   margin-left: -100px;
-  .el-input__inner {
-  background-color: #b4b2b2 !important; /* 设置输入框内部背景颜色为灰色 */
-    }
   }
-
-
-
-
 
 .el-button{
   padding: 15px 30px; /* 增大按钮的内边距 */
