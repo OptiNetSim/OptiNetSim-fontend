@@ -4,7 +4,7 @@
             <div class="content">
                 <!-- Logo -->
                 <div class="logo">
-                    <img src="@/assets/image/logo.png" alt="Logo" />
+                    <!-- <img src="@/assets/image/logo.png" alt="Logo" /> -->
                 </div>
                 <!-- Title -->
                 <h1 class="home-title">
