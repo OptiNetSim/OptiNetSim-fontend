@@ -7,7 +7,7 @@
       <div class="board">
         <!--添加标题和logo-->
         <div class="header">
-          <img src="@/assets/image/logo.png" alt="Logo" class="logo" />
+          <!-- <img src="@/assets/image/logo.png" alt="Logo" class="logo" /> -->
           <span class="title">登陆系统</span>
         </div>
 
@@ -69,7 +69,7 @@ const onForgetPassword = () => {
 .login {
 display: flex; /* 修改：使用flex布局 */
 height: 100vh;
-background-image: url('@/assets/image/background.png');
+// background-image: url('@/assets/image/background.png');
 background-size: cover;
 background-position: center;
 
@@ -88,7 +88,7 @@ background-position: center;
 }
 
 .board {
-  background-image: url('@/assets/image/board.png');
+  // background-image: url('@/assets/image/board.png');
   background-size: cover; /* 让背景图完全覆盖 */
   background-repeat: no-repeat; /* 不重复背景图 */
   width: 70%; /* 修改：宽度占右侧区域的70% */
