@@ -193,7 +193,6 @@ import { deleteElementAPI } from '@/api/topology';
 import { createNewConnectionAPI } from '@/api/topology';
 import { updateConnectionAPI } from '@/api/topology';
 import { deleteConnectionAPI } from '@/api/topology';
-import { c } from 'vite/dist/node/types.d-aGj9QkWt';
 
 
 interface Node extends vNG.Node {
